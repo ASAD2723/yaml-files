@@ -1,0 +1,62 @@
+# WRITING STUDENT DATA IN SEQUENCE
+student: !!seq
+ - marks
+ - name
+ - roll_no
+
+# ANOTHER EXAMPLE
+cities: [bhilai,raipur]
+
+
+# SPARSE SEQ
+sparse seq:
+ - hey
+ - hello
+ - 
+ - Null
+ - sup
+
+# NESTED SEQ
+-
+ - mango
+ - apple
+ - banana
+-
+ - marks
+ - roll_no
+ - date
+
+
+
+# NESTED MAPPING OR WRITING KEY VALUE PAIRS IN NESTED
+name: "Mohammad Asad Khan"
+role: 
+  age: 45
+  job: "SDE"
+
+# OR YOU CAN WRITE
+name: "Asad Khan"
+role: {age:45, job:"SDE"}
+
+
+# PAIRS: KEY MAY HAVE DUPLICATE VALUES
+# !!PAIRS
+# EXAMPLE
+
+pair example: !!pairs
+  -job: 'student'
+  -job: 'teacher'
+
+# THESE ARE STORED IN MANNER OR ARRAYS
+
+
+# DICTIONARY !!OMAP
+people: !!omap
+  - Asad:
+    name: "Asad Khan"
+    age: 23
+    hieght: 5
+  - Ahsan:
+    name: "Ahsan Khan"
+    age: 87
+    height: 2
