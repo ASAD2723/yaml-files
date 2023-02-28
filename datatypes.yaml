@@ -1,0 +1,49 @@
+#String Variables
+MyName: Mohammad Asad Khan
+college: "Mats University"
+job: 'sde'
+
+
+# Errors in STRINGS EXAMPLE
+aboutme: "Hi im a software Engineer"
+Trying to learn new things
+# Above command will throw errors
+
+To write Multi line we use |
+
+bio: |
+Hello Everyone
+Kya haal hai
+
+message: >
+this will be another line
+new line
+may be another line
+
+
+
+# NUMBER VARIABLES
+number: 454534
+# FLOAT VARIABLES
+marks: 45.45
+# BOOLEAN VALUE
+booleanValue: No    =>false      Yes    =>True
+
+
+# SPECIFY TYPES
+
+# NUMBERS
+zero: !!int 0
+positiveNum: !!int 34
+negativeNum: !!int -45
+BinaryNum: !!int 0b11011
+octalNum: !!int 06573
+hexa: !!int 0x45
+commaValue: !!int 12_909 #12,909
+
+# FLOATING NUMBERS
+marks: !!float 45.12
+infinite: !!float .inf
+
+# NULL
+surname: !!null

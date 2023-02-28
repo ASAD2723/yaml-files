@@ -17,3 +17,11 @@ cities:
   -korba  
   -hyderabad
   -delhi
+
+#To avoid Indentation error we can write YAML in JSON Formats
+# EXAMPLE
+cities: [bhilai,raipur]
+
+# Or for Key Value Pairs we can write like
+# EXAMPLE
+{mango: "Yellow Fruits" age: 67}
