@@ -1,0 +1,8 @@
+---
+School: 
+  -name: 'Dps'
+   principal: 'Someone'
+   Students: 
+   -rno: 21
+    name: "Asad Khan"
+    marks: 78

@@ -60,3 +60,26 @@ people: !!omap
     name: "Ahsan Khan"
     age: 87
     height: 2
+
+
+
+
+# REUSING SOME PROPERTIES USING ANCHORS THAT IS &base =>  <<: *base
+# EXAMPLE
+likings: &likes
+  fav fruit: "mango"
+  dislikes: "grapes"
+
+person1:
+  name: "asad"
+  <<: *likes
+
+person2:
+  name: "asad"
+  <<: *likes
+  dislikes: "berries"
+
+person3:
+  name: "asad"
+  <<: *likes
+  
